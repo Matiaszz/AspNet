@@ -1,9 +1,12 @@
+@* always starts with @page *@
 @page
-@model Razor.Pages.index
 
-@{
+@model Razor.Pages.Index
+
+@* don't need this for now *@
+@* @{
     Layout = null;
-}
+} *@
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -11,8 +14,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="wwwroot/css/style.css">
 </head>
 <body>
-    
+    @for(var i = 1; i <= 10; i++){
+        <p>Item @i</p>
+    }
 </body>
 </html>

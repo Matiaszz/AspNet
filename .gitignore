@@ -1,0 +1,24 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+
+# Logs
+*.log
+
+# Package directories
+packages/
+*.nupkg
+*.snupkg
+
+# IDE configurations
+.vs/
+.idea/
+.vscode/
+
+# Application settings
+appsettings.*.json
